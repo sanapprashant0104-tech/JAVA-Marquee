@@ -111,13 +111,13 @@ public class Arithmetic {
 
         switch (day) {
             case 1:
-            //     System.out.println("Monday");
-            //     break;
+                System.out.println("Monday");
+                break;
             case 2:
                 System.out.println("Tuesday");
                 break;
             case 3:
-                System.out.println("Wendseday");
+                System.out.println("Wedseday");
                 break;
             case 4:
                 System.out.println("Thursday");

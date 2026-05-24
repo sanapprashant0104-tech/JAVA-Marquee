@@ -32,7 +32,7 @@ public class pattern {
 
         // pyramid2(rows);
 
-        diamond(rows);
+        // diamond(rows);
 
         // diamond2(rows);
 
@@ -40,7 +40,7 @@ public class pattern {
 
         // inversealphaPattern(rows);
 
-        // alphaPyramid(rows);
+        alphaPyramid(rows);
     }
 
     public static void numTriangle(int rows) {
@@ -126,9 +126,9 @@ public class pattern {
 
     public static void pyramid(int rows){
         
-        // for (int i = 1; i <= rows; i++) {
+        for (int i = 1; i <= rows; i++) {
 
-        for (int i = rows; i > 0; i--) {     // for inverted pattern
+        // for (int i = rows; i > 0; i--) {     // for inverted pattern
 
             //spaces
             for(int j = 1; j <= rows-i; j++){
@@ -287,8 +287,8 @@ public class pattern {
                 System.out.print("  ");
             }
             // alphabate
-            for (int j = 0; j <= 2*i-1; j++) {
-                System.out.print((char)('A' + j) +" ");  
+            for (int j = 0; j < 2*i-1; j++) {
+                System.out.print((char)('A' + j) + " ");  
             }
 
             System.out.println();

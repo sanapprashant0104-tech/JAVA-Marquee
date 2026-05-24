@@ -30,6 +30,7 @@ public class switchcase {
                 break;
         
             default:
+                System.out.println("Enter valid post");
                 break;
         }
     }
